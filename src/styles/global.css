@@ -19,9 +19,6 @@ img{max-width:100%}
 .skip{position:absolute;left:-9999px}
 .skip:focus{left:1rem;top:1rem;z-index:99;background:var(--paper);padding:.5rem}
 .prose{min-width:0;max-width:760px;font-family:Newsreader,Georgia,serif;font-size:clamp(1.05rem, 1.1vw + .85rem, 1.25rem);overflow-wrap:anywhere}
-html[data-text-size="small"] .blog-post .body .prose{font-size:clamp(1rem,.8vw + .85rem,1.15rem)}
-html[data-text-size="medium"] .blog-post .body .prose{font-size:clamp(1.2rem,1.05vw + .95rem,1.45rem)}
-html[data-text-size="large"] .blog-post .body .prose{font-size:clamp(1.35rem,1.2vw + 1rem,1.65rem)}
 .prose h2,.prose h3{font-family:Manrope,sans-serif;line-height:1.2;margin-top:2.4em}
 .prose a{text-decoration:underline}
 .prose blockquote{border-left:4px solid var(--lime);margin-left:0;padding-left:1.2rem;font-style:italic}
@@ -32,4 +29,4 @@ html[data-text-size="large"] .blog-post .body .prose{font-size:clamp(1.35rem,1.2
 .prose pre code{overflow-wrap:normal}
 .prose img,.prose video,.prose iframe{max-width:100%;height:auto}
 .prose img{display:block;width:100%;border:1px solid var(--line);border-radius:.85rem;margin:2rem auto .5rem}
-@media(max-width:720px){.prose{font-size:1.1rem}html[data-text-size="small"] .blog-post .body .prose{font-size:.95rem}html[data-text-size="medium"] .blog-post .body .prose{font-size:1.1rem}html[data-text-size="large"] .blog-post .body .prose{font-size:1.25rem}.prose blockquote{padding-left:.9rem}}
+@media(max-width:720px){.prose{font-size:1.1rem}.prose blockquote{padding-left:.9rem}}
