@@ -5,7 +5,7 @@ publishedAt: "2026-11-15"
 category: "Bioinformatics"
 tags: [bioinformatics, approximation-algorithms, vertex-cover, traveling-salesperson, set-cover, max-3-cnf, subset-sum, fptas]
 readingTime: "15 min read"
-accent: "#edf3f0"
+accent: "#57f8a7"
 ---
 
 # Approximation Algorithms in Bioinformatics
