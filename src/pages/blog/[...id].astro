@@ -114,13 +114,15 @@ const isKaratePost = post.id === 'four-karate-styles-one-empty-hand';
 
   .body {
     display: grid;
-    grid-template-columns: 200px minmax(0, 1fr);
-    gap: clamp(1.5rem, 4vw, 4rem);
+    grid-template-columns: 180px minmax(0, 1fr);
+    gap: clamp(1.25rem, 3vw, 2.5rem);
     padding-top: clamp(2rem, 5vw, 4rem);
   }
 
   .body .prose {
-    max-width: 900px;
+    width: 100%;
+    max-width: 1200px;
+    font-size: clamp(1.2rem, 1.05vw + 0.95rem, 1.45rem);
   }
 
   .body aside {
@@ -135,6 +137,10 @@ const isKaratePost = post.id === 'four-karate-styles-one-empty-hand';
       grid-template-columns: minmax(0, 1fr);
       gap: 1rem;
       padding-top: 2rem;
+    }
+
+    .body .prose {
+      font-size: 1.1rem;
     }
 
     .body aside {
