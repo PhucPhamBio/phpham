@@ -4,6 +4,7 @@ import Footer from '../components/Footer.astro';
 import MusicPlayer from '../components/MusicPlayer.astro';
 import { ClientRouter } from 'astro:transitions';
 import dnaAnalysisIcon from '../images/letterp.png';
+import 'katex/dist/katex.min.css';
 import '../styles/global.css';
 const { title='Phuc Pham', description='A personal space where Phuc Pham share what he learn, what he explore, and how he see the world.' } = Astro.props;
 const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site) : undefined;

@@ -7,6 +7,7 @@ import educationImage from '../images/education-should-not-have-to-choose-betwee
 import karateImage from '../images/four-karate-styles-one-empty-hand.png';
 import virtualCellImage from '../images/how-to-build-virtual-cell.png';
 import precisionMedicineImage from '../images/precision-medicine.png';
+import algorithmsImage from '../images/randomized-algorithms.png';
 
 const { post, large=false } = Astro.props;
 const base = import.meta.env.BASE_URL;
@@ -35,6 +36,10 @@ const cardImages: Record<string, { image: ImageMetadata; alt: string }> = {
   'four-karate-styles-one-empty-hand': {
     image: karateImage,
     alt: 'Illustrated overview of Shotokan, Goju-ryu, Shito-ryu, and Wado-ryu karate styles.'
+  },
+  'randomized-algorithms': {
+    image: algorithmsImage,
+    alt: 'Overview of five approximation algorithms and their bioinformatics applications: vertex cover, metric TSP, set cover, MAX-3-CNF, and subset sum.'
   }
 };
 const cardImage = cardImages[post.id];
